@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    margin: 0;
+}
+
+.wrap {
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .06);
+}
+
+h1 {
+    margin: 0 0 12px 0
+}
+
+.form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px
+}
+
+.form input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd
+}
+
+.form button {
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    align-items: center
+}
+
+.list li.done span {
+    text-decoration: line-through;
+    color: #888
+}
+
+.list li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #b00
+}
